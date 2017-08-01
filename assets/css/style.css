@@ -19,7 +19,7 @@ h1 {
 
 h2 {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 header{
@@ -46,6 +46,7 @@ header{
 
 .header-section {
   float: right;
+  width: 280px;
 }
 
 .header-list {
@@ -60,7 +61,7 @@ header{
 }
 
 .content {
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
 
 .about-me {
@@ -90,7 +91,7 @@ header{
   line-height: 30px;
 }
 
-.contact {
+.connect {
   margin-top: 40px;
   border: 1px solid #dddddd;
   background-color: #fff;
@@ -101,16 +102,100 @@ header{
   margin-bottom: 20px;
 }
 
-.contact h2 {
+.connect h2 {
   padding-bottom: 15px;
   border-bottom: 2px solid #dddddd;
   margin-bottom: 20px;
   text-align: left;
 }
 
-.contact img {
+.connect img {
   height: 60px;
   width: 60px;
+}
+
+.portfolio {
+  margin-top: 40px;
+  border: 1px solid #dddddd;
+  background-color: #fff;
+  width: 588px;
+  padding: 30px;
+  float: left;
+}
+
+.portfolio h1 {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #dddddd;
+  margin-bottom: 30px;
+}
+
+.portfolio img {
+  height: 180px;
+  width: 270px;
+  margin: 12px;
+  float: left;
+}
+
+.portfolio-item {
+  position: relative;
+  float: left;
+}
+
+.portfolio-title {
+  background-color: #4aaaa5;
+  position: absolute;
+  text-align: center;
+  width: 270px;
+  top: 140px;
+  padding: 10px 0px;
+  margin: 0px 12px;
+  color: #fff;
+}
+
+.contact {
+  margin-top: 40px;
+  border: 1px solid #dddddd;
+  background-color: #fff;
+  width: 588px;
+  padding: 30px;
+  float: left;
+}
+
+.contact h1 {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #dddddd;
+  margin-bottom: 30px;
+}
+
+.contact form {
+  overflow: auto;
+}
+
+.contact .input {
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact textarea {
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+  border-style: inset;
+  box-sizing: border-box;
+}
+
+.contact .submit {
+  padding: 10px 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  background-color: #4aaaa5;
+  border-style: none;
+  color: #fff;
+  font-size: 18px;
 }
 
 footer {
